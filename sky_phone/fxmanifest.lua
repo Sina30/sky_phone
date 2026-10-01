@@ -6,7 +6,7 @@ use_experimental_fxv2_oal 'yes'
 
 author 'Sky-Systems'
 description 'Sky Phone'
-version '1.1.0'
+version '1.1.1'
 
 provide 'lb-phone'
 provide '17mov_Phone'
@@ -135,6 +135,7 @@ server_scripts {
     'source/server/admin.lua',
     'source/server/lb_phone_migration.lua',
     'source/server/custom_app_storage.lua',
+    'source/server/custom_app_installations.lua',
     'source/server/payphones.lua',
     'source/server/calls.lua',
     'source/server/notifications.lua',
